@@ -7,6 +7,7 @@ class Dstack < Formula
   sha256 "a595211cb8cd16e50314655017893d26c8ab6cf9106326fb74e479c2b60c079c"
   license "MPL-2.0"
 
+  depends_on "rust" => :build
   depends_on "python@3.9"
 
   resource "anyio" do

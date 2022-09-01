@@ -12,7 +12,7 @@ class Dstack < Formula
 
   bottle do
     root_url "https://github.com/dstackai/homebrew-dstack/releases/download/0.0.6.6"
-    sha256 cellar: :any, arm64_monterey: "ef5fc88a89ee65bf9ef7638c812c00bc845e96ab1a560e7061cef74dd05cf747"
+    sha256 cellar: :any, arm64_monterey: "81826f532e116ab09a97b62cd2ac7ac8c8bad49fab5e9163ed67b9fce33edfa2"
   end
 
   resource "anyio" do

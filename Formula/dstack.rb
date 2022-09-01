@@ -10,6 +10,11 @@ class Dstack < Formula
   depends_on "rust" => :build
   depends_on "python@3.10"
 
+  bottle do
+    root_url "https://github.com/dstackai/homebrew-dstack/releases/download/0.0.6.6"
+    sha256 cellar: :any, arm64_monterey: "ef5fc88a89ee65bf9ef7638c812c00bc845e96ab1a560e7061cef74dd05cf747"
+  end
+
   resource "anyio" do
     url "https://files.pythonhosted.org/packages/67/c4/fd50bbb2fb72532a4b778562e28ba581da15067cfb2537dbd3a2e64689c1/anyio-3.6.1.tar.gz"
     sha256 "413adf95f93886e442aea925f3ee43baa5a765a64a0f52c6081894f9992fdd0b"

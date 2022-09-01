@@ -2,13 +2,13 @@ class Dstack < Formula
   include Language::Python::Virtualenv
   desc "A command-line interface to run ML workflows in the cloud"
   homepage "https://dstack.ai"
-  url "https://files.pythonhosted.org/packages/bb/ee/c3900cf7555166fe8a9f3df73efcc36050a6f58ae6418d9b14fc391b05f0/dstack-0.0.6.4.tar.gz"
-  version "0.0.6.4"
-  sha256 "a595211cb8cd16e50314655017893d26c8ab6cf9106326fb74e479c2b60c079c"
+  url "https://files.pythonhosted.org/packages/60/ea/f09f479e9298167f269c7cb44bdc2642c07b34537f65ff3bfedf4d2ec02b/dstack-0.0.6.6.tar.gz"
+  version "0.0.6.6"
+  sha256 "09dd4543adf46ffa908dd60e45e571913cec9480836d7843face6301748f80a5"
   license "MPL-2.0"
 
   depends_on "rust" => :build
-  depends_on "python@3.9"
+  depends_on "python@3.10"
 
   resource "anyio" do
     url "https://files.pythonhosted.org/packages/67/c4/fd50bbb2fb72532a4b778562e28ba581da15067cfb2537dbd3a2e64689c1/anyio-3.6.1.tar.gz"
